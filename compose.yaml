@@ -6,8 +6,8 @@ services:
       args:
         user: appuser
         group: appuser
-        uid: 1000
-        gid: 1000
+        uid: 197609
+        gid: 197609
     volumes:
       - type: bind
         source: ./src/
